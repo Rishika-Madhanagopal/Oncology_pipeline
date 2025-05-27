@@ -1,9 +1,0 @@
-# requirements.txt
-scanpy
-anndata
-pandas
-scikit-learn
-matplotlib
-seaborn
-shap
-joblib
