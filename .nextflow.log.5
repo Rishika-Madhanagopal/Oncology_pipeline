@@ -1,0 +1,91 @@
+May-27 23:06:01.982 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -with-docker
+May-27 23:06:02.087 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.2
+May-27 23:06:02.111 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/rishika/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.0,nf-k8s@1.0.0,nf-tower@1.11.2,nf-wave@1.12.1
+May-27 23:06:02.132 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-27 23:06:02.133 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-27 23:06:02.136 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+May-27 23:06:02.149 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-27 23:06:02.175 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/rishika/Oncology_pipeline/nextflow.config
+May-27 23:06:02.178 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/rishika/Oncology_pipeline/nextflow.config
+May-27 23:06:02.215 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/rishika/.nextflow/secrets/store.json
+May-27 23:06:02.219 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@3bc735b3] - activable => nextflow.secret.LocalSecretsProvider@3bc735b3
+May-27 23:06:02.225 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+May-27 23:06:02.663 [main] DEBUG nextflow.config.ConfigBuilder - Enabling execution in Docker container as requested by command-line option `-with-docker -`
+May-27 23:06:02.681 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+May-27 23:06:02.697 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [happy_coulomb] DSL2 - revision: bfcf599ffd
+May-27 23:06:02.699 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-27 23:06:02.699 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-27 23:06:02.753 [main] DEBUG nextflow.Session - Session UUID: b207d9d0-f412-4f74-a293-9e842b4570aa
+May-27 23:06:02.754 [main] DEBUG nextflow.Session - Run name: happy_coulomb
+May-27 23:06:02.754 [main] DEBUG nextflow.Session - Executor pool size: 12
+May-27 23:06:02.763 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+May-27 23:06:02.769 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+May-27 23:06:02.791 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.04.2 build 5947
+  Created: 13-05-2025 21:58 UTC (22:58 BST)
+  System: Linux 5.15.167.4-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.26 on OpenJDK 64-Bit Server VM 17.0.15+6-Ubuntu-0ubuntu122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 89492@Rishika-PC [127.0.1.1]
+  CPUs: 12 - Mem: 7.6 GB (6.4 GB) - Swap: 2 GB (2 GB)
+May-27 23:06:02.814 [main] DEBUG nextflow.Session - Work-dir: /home/rishika/Oncology_pipeline/work [ext2/ext3]
+May-27 23:06:02.815 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/rishika/Oncology_pipeline/bin
+May-27 23:06:02.824 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-27 23:06:02.835 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-27 23:06:02.842 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+May-27 23:06:02.877 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-27 23:06:02.887 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+May-27 23:06:02.944 [main] DEBUG nextflow.Session - Session start
+May-27 23:06:03.147 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-27 23:06:03.251 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:organize_samples_scRNA` matches process organize_samples_scRNA
+May-27 23:06:03.272 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+May-27 23:06:03.273 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-27 23:06:03.280 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-27 23:06:03.287 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=7.6 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+May-27 23:06:03.289 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+May-27 23:06:03.319 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'organize_samples_scRNA': maxForks=0; fair=false; array=0
+May-27 23:06:03.387 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: organize_samples_scRNA
+May-27 23:06:03.391 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+May-27 23:06:03.392 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > organize_samples_scRNA
+May-27 23:06:03.394 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_4e2ee91cddc942c2: /home/rishika/Oncology_pipeline/main.nf
+May-27 23:06:03.394 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-27 23:06:03.394 [main] DEBUG nextflow.Session - Session await
+May-27 23:06:03.617 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-27 23:06:03.620 [Task submitter] INFO  nextflow.Session - [e3/4da877] Submitted process > organize_samples_scRNA
+May-27 23:06:04.324 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: organize_samples_scRNA; status: COMPLETED; exit: 0; error: -; workDir: /home/rishika/Oncology_pipeline/work/e3/4da877bbea71df18e50e91964fba3f]
+May-27 23:06:04.325 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+May-27 23:06:04.354 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=organize_samples_scRNA; work-dir=/home/rishika/Oncology_pipeline/work/e3/4da877bbea71df18e50e91964fba3f
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `organized/*` expected by process `organize_samples_scRNA`
+May-27 23:06:04.392 [TaskFinalizer-1] ERROR nextflow.processor.TaskProcessor - Error executing process > 'organize_samples_scRNA'
+
+Caused by:
+  Missing output file(s) `organized/*` expected by process `organize_samples_scRNA`
+
+
+Command executed:
+
+  python /workspace/scripts/organize_samples_scRNA.py --input GSE263995_data --output organized
+
+Command exit status:
+  0
+
+Command output:
+  All files organized successfully.
+
+Work dir:
+  /home/rishika/Oncology_pipeline/work/e3/4da877bbea71df18e50e91964fba3f
+
+Container:
+  yourdockerimage:latest
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+May-27 23:06:04.405 [TaskFinalizer-1] DEBUG nextflow.Session - Session aborted -- Cause: Missing output file(s) `organized/*` expected by process `organize_samples_scRNA`
+May-27 23:06:04.405 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-27 23:06:04.423 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+May-27 23:06:04.423 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-27 23:06:04.431 [TaskFinalizer-1] WARN  nextflow.util.SimpleAgent - Got an interrupted exception while taking agent result | java.lang.InterruptedException
+May-27 23:06:04.435 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=624ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+May-27 23:06:04.612 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-27 23:06:04.632 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

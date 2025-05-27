@@ -1,0 +1,11 @@
+id	filename	md5	size	state
+0616fd68-603a-4027-981c-3feeebe1317a	0616fd68-603a-4027-981c-3feeebe1317a/TCGA-AR-A2LO-01A-31D-A89B-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	33941fa49b4441729456d7df4fceca7c	26253	validated
+07b705dc-b1ba-4c33-8f0b-cbc77398faa9	07b705dc-b1ba-4c33-8f0b-cbc77398faa9/59f7f6f4-e451-488b-a7b5-90c7777b040b_wgs_gdc_realn.cr.igv.reheader.seg.txt	bca4faf1aaa6ccab5f1651eca1623c34	21337	validated
+0d7c57ab-8740-4a59-a487-cdb69085be32	0d7c57ab-8740-4a59-a487-cdb69085be32/TCGA-EW-A1PD-01A-11D-A898-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	b48874a7fe30e4d93c9e00c54c53b9e2	85612	validated
+3cf7a6a4-c126-44f4-8ee3-d7ef4757e213	3cf7a6a4-c126-44f4-8ee3-d7ef4757e213/TCGA-E2-A14Q-01A-11D-A895-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	ff6388730254e6f52a233793f12e5599	46528	validated
+4019e1b3-bbbd-472a-940b-a78479f59437	4019e1b3-bbbd-472a-940b-a78479f59437/TCGA-E9-A1NH-01A-11D-A897-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	403f896174d90ac01ffec2abd11b97fb	45974	validated
+5503352c-56e8-4565-9e99-35d019b47e80	5503352c-56e8-4565-9e99-35d019b47e80/TCGA-C8-A8HP-01A-01D-A89F-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	768244e507834540d2d905c93282e494	49545	validated
+7cff3097-6cff-4bb8-a34b-27fb129652bb	7cff3097-6cff-4bb8-a34b-27fb129652bb/TCGA-AC-A23C-01A-12D-A899-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	5166a7bb81833488fa6a34d2b4659296	66525	validated
+a22b8235-7bfc-47f6-b3fa-0e1eb408fcb3	a22b8235-7bfc-47f6-b3fa-0e1eb408fcb3/TCGA-AR-A24U-01A-11D-A899-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	bb3e6c40811c318eddde335103b2dbb4	43117	validated
+aaa5d2d1-b118-4b94-a7eb-8137968c2a82	aaa5d2d1-b118-4b94-a7eb-8137968c2a82/TCGA-E2-A158-01A-11D-A895-36.WholeGenome.RP-1657.cr.igv.reheader.seg.txt	3c85e94dff0fe8b1975f9ca9853d1207	333933	validated
+fe3fb937-c439-4396-b075-cffb74296fdb	fe3fb937-c439-4396-b075-cffb74296fdb/13c312ec-0add-4758-ab8d-c193e2e08c6d_wgs_gdc_realn.cr.igv.reheader.seg.txt	661a6c23f986720300ee3ab3545519e0	73113	validated

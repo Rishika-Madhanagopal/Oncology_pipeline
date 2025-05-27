@@ -1,0 +1,6 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents"
+"query_1",TRUE,0.0408226442824585,2796,15,9,0.6,0.00321888412017167,"GO:0002376","GO:BP","immune system process",21017,906,"GO:0008150"
+"query_1",TRUE,0.0408538411047913,265,15,4,0.266666666666667,0.0150943396226415,"GO:0032868","GO:BP","response to insulin",21017,7865,"GO:0043434"
+"query_1",TRUE,0.000747402435141506,169,16,4,0.25,0.0236686390532544,"GO:0019814","GO:CC","immunoglobulin complex",22115,793,"GO:0032991"
+"query_1",TRUE,0.0022790798916202,6269,16,13,0.8125,0.00207369596426862,"GO:0071944","GO:CC","cell periphery",22115,2735,"GO:0110165"
+"query_1",TRUE,0.0166804026787549,135,9,3,0.333333333333333,0.0222222222222222,"KEGG:04210","KEGG","Apoptosis",8484,287,"KEGG:00000"
