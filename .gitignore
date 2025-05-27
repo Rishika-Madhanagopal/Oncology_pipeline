@@ -1,10 +1,5 @@
-# Ignore large data and cache files
 *.h5ad
 *.mtx.gz
 *.json
-
-# Ignore temporary files
-*.ipynb_checkpoints
-__pycache__/
-.env
-.DS_Store
+cache/
+data/GSE263995_data/
